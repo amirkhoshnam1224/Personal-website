@@ -1,0 +1,12 @@
+.box-card {
+    border: 1px solid #94918e;
+    transition: transform 0.3s ease,
+        box-shadow 0.3s ease;
+    /* اضافه کردن ترانزیشن برای انیمیشن نشان دادن سایه */
+}
+
+.box-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px #e4be9f;
+    /* اعمال یک سایه با رنگ مشکی و شعاع 10 پیکسل */
+}
